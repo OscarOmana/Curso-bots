@@ -21,14 +21,20 @@ Para construir nuestros propios Bots se presentó el Bot Framework que, actualme
 
 ## Requisitos y material necesarios
 
-*Visual Studio: debes tener instalado visual estudio 2017 en un equipo, no importa si es el Community, Professional o Enterprise. Puedes obtenerlo en este [enlace.](https://www.visualstudio.com/es/downloads/?rr=https%3A%2F%2Fwww.google.com.mx%2F) 
+### Visual Studio:
+ debes tener instalado visual estudio 2017 en un equipo, no importa si es el Community, Professional o Enterprise. Puedes obtenerlo en este [enlace.](https://www.visualstudio.com/es/downloads/?rr=https%3A%2F%2Fwww.google.com.mx%2F) 
 
-*Bot Template: Template para Visual Studio que nos facilita el empezar un nuevo proyecto ya que tiene todas las referencias necesarias configuradas. Podemos descargarlo desde la siguiente [enlace.](http://aka.ms/bf-bc-vstemplate)
+### Bot Template: 
+Template para Visual Studio que nos facilita el empezar un nuevo proyecto ya que tiene todas las referencias necesarias configuradas. Podemos descargarlo desde la siguiente [enlace.](http://aka.ms/bf-bc-vstemplate)
 
 Una vez descargado, copiamos el template a la carpeta correspondiente (%USERPROFILE%\Documents\Visual Studio 2017\Templates\ProjectTemplates\Visual C#), para tenerlo disponible desde Visual Studio.
 
 <img src="Imagenes/template.png"/>
 
-*Bot Emulator: Que nos instala una especie de ventana de chat donde podemos probar el correcto funcionamiento de nuestro Bot, descargalo en este [enlace.](https://github.com/Microsoft/BotFramework-Emulator/releases/download/v3.5.31/botframework-emulator-Setup-3.5.31.exe)
+### Bot Emulator: 
+Que nos instala una especie de ventana de chat donde podemos probar el correcto funcionamiento de nuestro Bot, descargalo en este [enlace.](https://github.com/Microsoft/BotFramework-Emulator/releases/download/v3.5.31/botframework-emulator-Setup-3.5.31.exe)
 
 <img src="Imagenes/emulador.png"/>
+
+
+Hasta aquí estás listo para continuar con los siguientes temas.
