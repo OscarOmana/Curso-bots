@@ -14,9 +14,9 @@ Aquí tienes la lista de temas en el orden en que lo planeamos, cada tema tiene 
 
 | Tema | Descripción y comentarios | Enlace |
 | --------- | -------------------- | ------ |
-| Requisitos y material necesarios | Todo lo que necesitas para iniciar | [Enlace](https://github.com/aminespinoza/ProyectosArduino/tree/master/DHT11) |
+| Requisitos y material necesarios | Todo lo que necesitas para iniciar | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/1.%20Requisitos%20y%20material%20necesarios) |
 | Cuando un bot y cuando un humano | Conoce los mejores escenarios para usar bots | [Enlace](https://github.com/aminespinoza/ProyectosArduino/tree/master/DHT11_Wire_Comm_Basic)|
-| Consideraciones antes de crear un bot | Para antes de arrancar... | [Enlace](https://github.com/aminespinoza/ProyectosArduino/tree/master/JoystickServos) |
+| Consideraciones antes de crear un bot | Para antes de arrancar... | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/3.%20Consideraciones%20antes%20de%20crear%20un%20bot) |
 | Estructura de un proyecto de Bot | Para entrar en materia | [Enlace](https://github.com/aminespinoza/ProyectosArduino/tree/master/Leds_Secuenciales) |
 
 ¡Disfuta!
