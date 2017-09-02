@@ -18,6 +18,7 @@ Aquí tienes la lista de temas en el orden en que lo planeamos, cada tema tiene 
 | Cuando un bot y cuando un humano | Conoce los mejores escenarios para usar bots | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/2.%20Cuando%20un%20bot%20y%20cuando%20un%20humano)|
 | Consideraciones antes de crear un bot | Para antes de arrancar... | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/3.%20Consideraciones%20antes%20de%20crear%20un%20bot) |
 | Estructura de un proyecto de Bot | Para entrar en materia | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/4.%20Estructura%20de%20un%20proyecto%20de%20Bot) |
+| Despliegue local de un bot y emulador | Depuración local | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/5.%20Despliegue%20local%20de%20un%20bot%20y%20emulador) |
 
 ¡Disfuta!
 

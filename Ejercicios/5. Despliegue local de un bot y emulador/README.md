@@ -1,5 +1,6 @@
 # Despliegue local de un bot y emulador
 
+En este ejercicio verás qué necesitas hacer para desplegar tu bot a modo de prueba en tu entorno local.
 
 ## Paso 1:
 Ya que tengas descargado del primer enlace el archivo .zip llamado Bot Framework lo debes colocar en las plantillas de C# para desarrollo, esto es: ..\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#
