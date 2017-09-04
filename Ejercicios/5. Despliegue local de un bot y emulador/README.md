@@ -2,12 +2,11 @@
 
 En este ejercicio verás qué necesitas hacer para desplegar tu bot a modo de prueba en tu entorno local.
 
-## Paso 1:
-Ya que tengas descargado del primer enlace el archivo .zip llamado Bot Framework lo debes colocar en las plantillas de C# para desarrollo, esto es: ..\Documents\Visual Studio 2015\Templates\ProjectTemplates\Visual C#
 
-<img src="Imagenes/Bot-templates.jpg"/>
 
-Ya en la posición adecuada, al abrir Visual Studio podrás ver la plantilla de proyecto disponible para crear el primero de este tipo.
+## Paso 1
+
+Crear un nuevo proyecto en Visual Studio de tipo C# y elegimos Bot Application
 
 <img src="Imagenes/BotTemplate2.jpg"/>
 
