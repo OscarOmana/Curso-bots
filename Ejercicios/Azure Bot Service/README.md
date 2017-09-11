@@ -3,11 +3,17 @@
 Con Azure Bot Services Podemos acelerar los ciclos de desarrollo de nuestro Bot con solo un clic y una pequeña configuración, podemos elegir nuestro lenguaje de preferencia ya sea Nodejs o C# y elegir una de las 5 plantillas preinstaladas y menos de 3 minutos podremos comenzar un chat con nuestro Bot y también cambiar el código con el editor de código online incorporado.
 
 <img src="Imagenes/uno.png"/>
+
+Puedes utilizar herramientas para enriquecer y hacer más atractivos tus Bots como por ejemplo utilizar Cognitive Service y además conectarlo con canales externos como: Skype, kik, slack, email, facebook, Messenger, maxell teams etc.
+
 <img src="Imagenes/dos.png"/>
+
+Y finalmente puedes hacer tu Bot más eficiente con ayuda de Azure functions con un despliegue continuo, puede ser escalable bajo demanda y muchas ventajas más. 
+
 <img src="Imagenes/tres.png"/>
 
 
-Con Azure bot services Podemos acelerar el proceso de desarrollo de nuestro Bot al mismo tiempo que queda publicado y podemos editarlo directo en el Azure Bot Service 
+ahora solo resta crear nuestro Bot con ayuda de Azure Bot Service. 
 
 ## Requisitos
 
