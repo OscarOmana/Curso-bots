@@ -17,15 +17,17 @@ ahora solo resta crear nuestro Bot con ayuda de Azure Bot Service.
 
 ## Requisitos
 
-Es necesario contar con una suscripción a Microsoft Azure, si no cuentas con una no te preocupes, puedes usar una de prueba por 15 días la podrás activar directo en este [enlace][https://azure.microsoft.com/en-us/free/]
+Es necesario contar con una suscripción a Microsoft Azure, si no cuentas con una no te preocupes, puedes usar una de prueba por 15 días la podrás activar directo en este [enlace](https://azure.microsoft.com/en-us/free/)
 
 ## Crea tu bot 
 
-Lo primero es iniciar sesión en tu cuenta de Azure, luego de eso en el menu
-1.	Seleccionamos nuevo 
+Lo primero es iniciar sesión en tu cuenta de Azure, luego de eso en el menu seleccionamos: 
+1.	Nuevo 
 2.	Data + Analytics 
 3.	Bot Service 
+
 Te saldrá una ventana como esta donde deberás llenar la información que se te pide 
+<img src="Imagenes/bot.png"/>
 
 •	App name (el nombre de tu Bot)
 
@@ -36,9 +38,9 @@ Te saldrá una ventana como esta donde deberás llenar la información que se te
 
 Y por último damos clic en el botón de crear tomara unos minutos en lo que se aprovisiona el servicio
 
-<img src="Imagenes/Bot.jpg"/>
+
 
 cuando esté listo en la parte superior derecha vas a encontrar el icono de las notificaciones en forma de campana y ahí encontraras si todo salió bien la leyenda "Deployment succeeded"
 
-<img src="Imagenes/Deployment.jpg"/>
+<img src="Imagenes/Deployment.png"/>
 
