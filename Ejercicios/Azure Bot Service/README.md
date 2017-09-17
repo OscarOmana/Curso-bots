@@ -22,9 +22,7 @@ Es necesario contar con una suscripción a Microsoft Azure, si no cuentas con un
 ## Crea tu bot 
 
 Lo primero es iniciar sesión en tu cuenta de Azure, luego de eso en el menu seleccionamos: 
-1.	Nuevo 
-2.	Data + Analytics 
-3.	Bot Service 
+1.	Nuevo, Data + Analytics, Bot Service 
 
 Te saldrá una ventana como esta donde deberás llenar la información que se te pide 
 <img src="Imagenes/bot.png"/>
@@ -65,6 +63,6 @@ Por último, eliges el lenguaje para tu Bot, en este caso será C# y para este e
 Aceptamos los términos y condiciones (recuerda que las tienes que leer antes de crear el Bot “ajaa”)
 Y damos clic en el botón de Crear Bot.
 
-<img src="Imagenes/Capture7.png"/>
+<img src="Imagenes/Capture7.PNG"/>
 
 
