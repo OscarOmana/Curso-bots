@@ -36,11 +36,27 @@ Te saldrá una ventana como esta donde deberás llenar la información que se te
 •	Resource Group etc..
 
 
-Y por último damos clic en el botón de crear tomara unos minutos en lo que se aprovisiona el servicio
+Y por último damos clic en el botón de crear tomara unos minutos en lo que se despliega el servicio
 
 
 
 cuando esté listo en la parte superior derecha vas a encontrar el icono de las notificaciones en forma de campana y ahí encontraras si todo salió bien la leyenda "Deployment succeeded"
 
 <img src="Imagenes/Deployment.png"/>
+
+
+Cuando esté listo nos mostrara una pantalla como la siguiente (primera imagen) donde deberemos dar clic para generar nuestro App e ID, estos los genera automáticamente (segunda imagen) y por último damos clic en generar app password
+
+<img src="Imagenes/Capture1.png"/>
+
+<img src="Imagenes/Capture3.png"/>
+
+Aquí es muy importante que copies ese password ya que será la única vez que lo mostrara, si no lo haces deberás hacer de nuevo todo el proceso anterior.
+
+<img src="Imagenes/Capture4.png"/>
+
+Das clic en finalizar y regresar al Bot Framework 
+
+Ya en la ventana que de regresa vas a pegar ese password en el paso donde te lo indica 
+
 
