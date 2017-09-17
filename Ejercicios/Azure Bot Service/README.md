@@ -57,6 +57,14 @@ Aquí es muy importante que copies ese password ya que será la única vez que l
 
 Das clic en finalizar y regresar al Bot Framework 
 
-Ya en la ventana que de regresa vas a pegar ese password en el paso donde te lo indica 
+Ya en la ventana que te regresa vas a pegar ese password en el paso donde te lo indica 
+
+<img src="Imagenes/Capture6.png"/>
+
+Por último, eliges el lenguaje para tu Bot, en este caso será C# y para este ejemplo usaremos la plantilla “Basic” 
+Aceptamos los términos y condiciones (recuerda que las tienes que leer antes de crear el Bot “ajaa”)
+Y damos clic en el botón de Crear Bot.
+
+<img src="Imagenes/Capture7.png"/>
 
 
