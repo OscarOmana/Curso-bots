@@ -47,7 +47,7 @@ cuando esté listo en la parte superior derecha vas a encontrar el icono de las 
 
 Cuando esté listo nos mostrara una pantalla como la siguiente (primera imagen) donde deberemos dar clic para generar nuestro App e ID, estos los genera automáticamente (segunda imagen) y por último damos clic en generar app password
 
-<img src="Imagenes/Capture1.jpg"/>
+<img src="Imagenes/capture1.png"/>
 
 <img src="Imagenes/Capture3.png"/>
 
