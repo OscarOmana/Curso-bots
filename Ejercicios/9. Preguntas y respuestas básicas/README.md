@@ -1,0 +1,1 @@
+# Preguntas y respuesta básicas del Bot
