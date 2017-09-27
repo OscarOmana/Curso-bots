@@ -8,15 +8,20 @@ Creamos un nuevo proyecto de Bot en Visual Studio
 Agregaremos un switch en nuestra clase RootDialog dentro del método MessageReceivedAsync
 
 Ahí dejaremos comentadas estas líneas 
-// calculate something for us to return
+
+```csharp - C
+
+            // calculate something for us to return
             //int length = (activity.Text ?? string.Empty).Length;
 
             // return our reply to the user
             //await context.PostAsync($"You sent {activity.Text} which was {length} characters");
-
+```
 Y en su lugar pondremos nuestro switch 
 
-switch (message)
+
+``` csharp - C
+            switch (message)
             {
                 case "hola":
                     await context.PostAsync("Hola señor!");
@@ -34,5 +39,17 @@ switch (message)
                     await context.PostAsync("Lo siento, no entendí esto");
                     break;
             }
+```
 
 
+Y pondremos esta línea antes del switch para que pueda entrar...
+
+``` csharp - C
+string message = activity.Text.ToLower();
+```
+
+es importante mencionar que él .Tolower nos servirá para que pueda reconocer entre mayúsculas y minúsculas.
+
+Con esto listo el resultado que obtendremos será algo así.
+
+<img src="Imagenes/botpyr.PNG"/>
