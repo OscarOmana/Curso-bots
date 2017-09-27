@@ -1,9 +1,38 @@
 # Preguntas y respuesta básicas del Bot
 
-Muchas veces cuando desarrollamos una aplicación móvil o web es necesario obtener datos básicos del usuario como Nombre, apellido, correo electrónico, número telefónico Etc. 
-Existen muchas formas en las que podríamos tener esa información dentro de nuestras apps, como listas desplegables o cajas te texto libre, luego de esto está el pequeño asunto de la validación, los campos requeridos, campos donde el valor debe ser un conjunto predefinido de opciones, condicionales y muchos más. 
-Entonces, ¿Qué pasa cuando necesitamos obtener este tipo de información dentro del contexto de un Bot?
+Preguntas y respuestas básicas con el Bot
 
-Claro que podríamos construir todo el flujo de conversación nosotros mismos usando los cuadros de diálogos tradicionales dentro del marco de nuestro Bot, pero manejar una conversación como ésta puede ser algo realmente complejo.
+Antes de hacer a nuestro bot super inteligente podemos comenzar a enseñarle algunas respuestas básicas esto de hecho es muy simple, solo necesitaremos usar un switch para que sean también preguntas ya definidas. Por ejemplo: ¿cómo te llamas?  ¿cuál es tu deporte favorito? Etc..
+Así que sin más vamos directo al código…
+Creamos un nuevo proyecto de Bot en Visual Studio 
+Agregaremos un switch en nuestra clase RootDialog dentro del método MessageReceivedAsync
 
-¿Qué pasa si el usuario quiere volver atrás y cambiar un valor que introdujo anteriormente? Las buenas noticias son que el marco del bot tiene una manera fantástica de manejar este tipo de conversación guiada - FormFlow. Con FormFlow podemos definir nuestros campos de formulario y hacer que el usuario los complete, mientras recibe ayuda a lo largo del camino.
+Ahí dejaremos comentadas estas líneas 
+// calculate something for us to return
+            //int length = (activity.Text ?? string.Empty).Length;
+
+            // return our reply to the user
+            //await context.PostAsync($"You sent {activity.Text} which was {length} characters");
+
+Y en su lugar pondremos nuestro switch 
+
+switch (message)
+            {
+                case "hola":
+                    await context.PostAsync("Hola señor!");
+                    break;
+                case "como te llamas?":
+                    await context.PostAsync("mi nombre es bot");
+                    break;
+                case "cuál es tu deporte favorito?":
+                    await context.PostAsync("¿Deporte? ¿Qué es eso? ¿Escribir código cuenta como deporte?");
+                    break;
+                case "donde estoy?":
+                    await context.PostAsync("En GitHub");
+                    break;
+                default:
+                    await context.PostAsync("Lo siento, no entendí esto");
+                    break;
+            }
+
+
