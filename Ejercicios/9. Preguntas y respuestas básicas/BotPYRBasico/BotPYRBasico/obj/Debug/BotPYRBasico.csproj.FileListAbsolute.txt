@@ -1,0 +1,41 @@
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Bot Application.dll.config
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Bot Application.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Bot Application.pdb
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Autofac.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Chronic.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.Bot.Builder.Autofac.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.Bot.Builder.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.Bot.Connector.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.Rest.ClientRuntime.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.WindowsAzure.Configuration.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Newtonsoft.Json.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\System.IdentityModel.Tokens.Jwt.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\System.Net.Http.Formatting.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\System.Web.Http.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\System.Web.Http.WebHost.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Autofac.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.Bot.Builder.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.Bot.Builder.Autofac.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.Bot.Connector.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Microsoft.WindowsAzure.Configuration.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\Newtonsoft.Json.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\System.IdentityModel.Tokens.Jwt.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\System.Net.Http.Formatting.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\System.Web.Http.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\System.Web.Http.WebHost.xml
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\ar\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\cs\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\en\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\es\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\fa\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\fr\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\ja\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\ru\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\obj\Debug\BotPYRBasico.csprojResolveAssemblyReference.cache
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\obj\Debug\BotPYRBasico.csproj.CoreCompileInputs.cache
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\obj\Debug\Bot Application.dll
+c:\users\oscar\documents\visual studio 2017\Projects\BotPYRBasico\BotPYRBasico\obj\Debug\Bot Application.pdb
