@@ -48,5 +48,7 @@ y después en el primer case podemos hacer esto...
         break;
 ``` 
 
+de esta forma el resultado será el siguiente.
 
-<img src="Imagenes/user.PNG"/>
+
+<img src="Imagenes/UserOne.PNG"/>
