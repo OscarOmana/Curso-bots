@@ -25,3 +25,7 @@ if (activity.Type == ActivityTypes.Message)
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
 ``` 
+
+por ahora, como estamos en el emulador el usuario que nos devolverá será el default “user” 
+
+por lo tanto, el resultado será el siguiente…
