@@ -2,7 +2,7 @@
 
 Algunas veces necesitaremos obtener el id de nuestro usuario, puede ser que sea solo para que nos salude por nuestro nombre o para muchas otras funciones más.
 
-Para este ejemplo usaremos el ejercicio anterior que lo puedes ver en este [enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/9.%20Preguntas%20y%20respuestas%20b%C3%A1sicas)
+Para este ejemplo usaremos el ejercicio anterior preguntas y respuestas básicas, aquí el [enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/9.%20Preguntas%20y%20respuestas%20b%C3%A1sicas)
 
 Bien para obtener el id de nuestro usuario solo basta con modificar un poco nuestra clase MessagesControlle en el método public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
 
@@ -34,8 +34,19 @@ if (activity.Type == ActivityTypes.Message)
             return response;
 ``` 
 
-por ahora, como estamos en el emulador el usuario que nos devolverá será el default “user” 
+ahora para que les muestre el nombre de su usuario haremos lo siguiente en nuestra clase de RootDialog antes de nuestro switch (recuerden que seguimos usando el ejercicio de Preguntas y respuestas básicas) pondremos la siguiente línea de código 
 
-por lo tanto, el resultado será el siguiente…
+``` csharp - C
+string blabla = activity.From.Name;
+``` 
+
+y después en el primer case podemos hacer esto...
+
+``` csharp - C
+    case "hola":
+        await context.PostAsync(String.Format("Hola {0}!", blabla));
+        break;
+``` 
+
 
 <img src="Imagenes/user.PNG"/>
