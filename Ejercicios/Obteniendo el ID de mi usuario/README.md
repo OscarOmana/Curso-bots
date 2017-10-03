@@ -29,3 +29,5 @@ if (activity.Type == ActivityTypes.Message)
 por ahora, como estamos en el emulador el usuario que nos devolverá será el default “user” 
 
 por lo tanto, el resultado será el siguiente…
+
+<img src="Imagenes/user.PNG"/>
