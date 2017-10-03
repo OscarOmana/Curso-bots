@@ -52,3 +52,5 @@ de esta forma el resultado será el siguiente.
 
 
 <img src="Imagenes/UserOne.PNG"/>
+
+Nota: el usuario en este caso será “User” ya que estamos de manera local. Para demostrar como lo haríamos con el bot publicado sigue este curso y en otra publicación haremos esto pero con el bot ya publicado.
