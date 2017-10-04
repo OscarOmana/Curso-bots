@@ -19,6 +19,8 @@ Aquí tienes la lista de temas en el orden en que lo planeamos, cada tema tiene 
 | Consideraciones antes de crear un bot | Para antes de arrancar... | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/3.%20Consideraciones%20antes%20de%20crear%20un%20bot) |
 | Estructura de un proyecto de Bot | Para entrar en materia | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/4.%20Estructura%20de%20un%20proyecto%20de%20Bot) |
 | Despliegue local de un bot y emulador | Depuración local | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/5.%20Despliegue%20local%20de%20un%20bot%20y%20emulador) |
+| Aprendiendo a usar el log del emulador | Una herramienta muy importante | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/6.%20Aprendiendo%20a%20usar%20el%20log%20del%20emulador) |
+| Azure Bot Service | Cómo crear un bot desde Azure sin el SDK | [Enlace]()
 
 ¡Disfuta!
 
