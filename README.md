@@ -23,6 +23,7 @@ Aquí tienes la lista de temas en el orden en que lo planeamos, cada tema tiene 
 | 7. Azure Bot Service | Cómo crear un bot desde Azure sin el SDK | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/7.%20Azure%20Bot%20Service) |
 | 8. Plantillas de Azure Bot Service | Aprender a utilizar las plantillas de Bot Service | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/8.%20Plantillas%20de%20Azure%20Bot%20Service) |
 | 9. Preguntas y respuestas básicas del bot | Comenzando a hacer una conversación básica | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/9.%20Preguntas%20y%20respuestas%20b%C3%A1sicas) |
+
 ¡Disfuta!
 
 [Amin Espinoza](https://twitter.com/aminespinoza)
