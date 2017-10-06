@@ -10,7 +10,10 @@ Un mensaje puede ser tan simple como una cadena de texto o contener archivos adj
 
 
 <img src="Imagenes/bot.PNG"/>
+Esto es texto simple.
 
 <img src="Imagenes/bot1.PNG"/>
+Esto es con datos adjuntos, en este caso una imagen.
 
 <img src="Imagenes/card.PNG"/>
+Esto es un ejemplo de tarjeta adaptable 
