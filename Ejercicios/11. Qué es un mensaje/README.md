@@ -9,11 +9,11 @@ Bien vamos a definir a un mensaje como el tipo de [actividad](https://github.com
 Un mensaje puede ser tan simple como una cadena de texto o contener archivos adjuntos, elementos interactivos y tarjetas enriquecidas. Por ejemplo, en el ejercicio anterior tú hiciste que el bot te avisara que ya estabas siendo agregado como usuario. Ese fue un ejemplo muy fácil, ahora veremos que tanto podemos obtener a partir de un mensaje.
 
 
+### Esto es texto simple.
 <img src="Imagenes/bot.png"/>
-Esto es texto simple.
 
+### Esto es con datos adjuntos, en este caso una imagen.
 <img src="Imagenes/bot1.PNG"/>
-Esto es con datos adjuntos, en este caso una imagen.
 
+### Esto es un ejemplo de tarjeta adaptable.
 <img src="Imagenes/card.PNG"/>
-Esto es un ejemplo de tarjeta adaptable 
