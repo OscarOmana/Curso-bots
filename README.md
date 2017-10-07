@@ -23,6 +23,10 @@ Aquí tienes la lista de temas en el orden en que lo planeamos, cada tema tiene 
 | 7. Azure Bot Service | Cómo crear un bot desde Azure sin el SDK | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/7.%20Azure%20Bot%20Service) |
 | 8. Plantillas de Azure Bot Service | Aprender a utilizar las plantillas de Bot Service | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/8.%20Plantillas%20de%20Azure%20Bot%20Service) |
 | 9. Preguntas y respuestas básicas del bot | Comenzando a hacer una conversación básica | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/9.%20Preguntas%20y%20respuestas%20b%C3%A1sicas) |
+| 10. ¿Qué es una actividad? | La clase más utilizada en un bot | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/10.%20Qu%C3%A9%20es%20una%20actividad) |
+| 11. ¿Qué es un mensaje? | La clase más utilizada en actividades | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/11.%20Qu%C3%A9%20es%20un%20mensaje) |
+| 12. Obteniendo el ID de mi usuario | Una manera muy útil de trabajar con respuestas personalizadas | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/12.%20Obteniendo%20el%20ID%20de%20mi%20usuario)
+| 13. Formulario básico de preguntas y respuestas | Comenzando una conversación simple | [Enlace](https://github.com/aminespinoza/Curso-bots/tree/master/Ejercicios/13.%20Formulario%20b%C3%A1sico%20de%20preguntas) |
 
 ¡Disfuta!
 

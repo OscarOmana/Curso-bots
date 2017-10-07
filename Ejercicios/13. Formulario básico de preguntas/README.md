@@ -113,6 +113,6 @@ private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<objec
     context.Wait(MessageReceivedAsync);
 }
 ```
-Con esto bastará para mejorar un poco tu estructura y que puedas comenzar a jugar con conversaciones simples. Naturalmente para cuando estés leyendo esto sabrás que usar esta manera de trabajo no escalaría bajo ningún concepto simplemente por imaginar el enorme tamaño del *switch* con una conversación verdadera. Lo mejor será primero planear una conversación más adecuada por medio de **FormFlow** que es el siguiente tema.
+Con esto bastará para mejorar un poco tu estructura y que puedas comenzar a jugar con conversaciones simples. Naturalmente para cuando estés leyendo esto sabrás que usar esta manera de trabajo no escalaría bajo ningún concepto simplemente por imaginar el enorme tamaño del *switch* con una conversación verdadera. Lo mejor será primero planear una conversación más adecuada por medio de **Dialogos** que es el siguiente tema.
 
 ¡Nos vemos!
