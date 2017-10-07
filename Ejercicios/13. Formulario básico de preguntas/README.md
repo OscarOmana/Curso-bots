@@ -1,71 +1,118 @@
-# Azure Bot Service
+# Formulario básico de preguntas y respuestas
 
-Con Azure Bot Services Podemos acelerar los ciclos de desarrollo de nuestro Bot con solo un clic y una pequeña configuración, podemos elegir nuestro lenguaje de preferencia ya sea Nodejs o C# y elegir una de las 5 plantillas preinstaladas y menos de 3 minutos podremos comenzar un chat con nuestro Bot y también cambiar el código con el editor de código online incorporado.
+Bueno, suficiente de teoría, concepto y todo, es en este tema en donde al fin habrá mucho código por desplegar así que vayamos directo al punto.
 
-<img src="Imagenes/uno.png"/>
+Comienza por crear un proyecto de tipo bot y colócate en la clase RootDialog para poder ver algo como esta imagen.
 
-Puedes utilizar herramientas para enriquecer y hacer más atractivos tus Bots como por ejemplo utilizar Cognitive Service y además conectarlo con canales externos como: Skype, kik, slack, email, facebook, Messenger, maxell teams etc.
+<img src="Imagenes/Img001.JPG"/>
 
-<img src="Imagenes/dos.png"/>
+Establece un *if* para asociar un mensaje específico con el mensaje que tu usuario va a ingresar.
 
-Y finalmente puedes hacer tu Bot más eficiente con ayuda de Azure functions con un despliegue continuo, puede ser escalable bajo demanda y muchas ventajas más. 
+``` csharp - C
+private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<object> result)
+{
+    var activity = await result as Activity;
 
-<img src="Imagenes/tres.png"/>
+    if (activity.Text == "Hola")
+    {
+        await context.PostAsync("Hola! Cómo te va?");
+    }
+    else
+    {
+        await context.PostAsync("Lo siento, no entiendo esta pregunta");
+    }
 
+    context.Wait(MessageReceivedAsync);
+}
+```
 
-ahora solo resta crear nuestro Bot con ayuda de Azure Bot Service. 
+Con este código ya estableciste tu primer diálogo al saludar pero hay algunos detalles como el insignificante hecho de que si escribes *hola* en minúsculas entonces el bot no lo entenderá así que antes de continuar es muy buena idea trabajar de manera interna con todo en minúsculas.
+``` csharp - C
+ private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<object> result)
+{
+    var activity = await result as Activity;
+    string receivedString = activity.Text.ToLower();
 
-## Requisitos
+    if (receivedString == "hola")
+    {
+        await context.PostAsync("Hola! Cómo te va?");
+    }
+    else
+    {
+        await context.PostAsync("Lo siento, no entiendo esta pregunta");
+    }
 
-Es necesario contar con una suscripción a Microsoft Azure, si no cuentas con una no te preocupes, puedes usar una de prueba por 15 días la podrás activar directo en este [enlace](https://azure.microsoft.com/en-us/free/)
+    context.Wait(MessageReceivedAsync);
+}
+```
 
-## Crea tu bot 
+El resultado en tu emulador lucirá así:
 
-Lo primero es iniciar sesión en tu cuenta de Azure, luego de eso en el menu seleccionamos: 
-1.	Nuevo, Data + Analytics, Bot Service 
+<img src="Imagenes/Img002.JPG"/>
 
-Te saldrá una ventana como esta donde deberás llenar la información que se te pide 
-<img src="Imagenes/bot.png"/>
+Ahora cambia la sentencia *if* por un *switch* para que puedas poner una mayor variedad de comentarios.
+``` csharp - C
+private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<object> result)
+{
+    var activity = await result as Activity;
+    string receivedString = activity.Text.ToLower();
 
-•	App name (el nombre de tu Bot)
+    switch (receivedString)
+    {
+        case "hola":
+            await context.PostAsync("Hola! Cómo te va?");
+            break;
+        case "tengo hambre":
+            await context.PostAsync("No lo creo, creo que tienes sed");
+            break;
+        case "cómo te llamas?":
+            await context.PostAsync("Puedes decirme como quieras, no me ofendo");
+            break;
+        case "qué edad tienes?":
+            await context.PostAsync("soy tan viejo como el tiempo mismo");
+            break;
+        default:
+            await context.PostAsync("Lo siento, no entiendo esta pregunta");
+            break;
+    }
 
-•	Subscription 
+    context.Wait(MessageReceivedAsync);
+}
+```
+Todas estas respuestas las podrás ver en tu emulador fácilmente de la siguiente manera.
 
-•	Resource Group etc..
+<img src="Imagenes/Img003.JPG"/>
 
+Comienza a lucir bastante bien ¿no? Desde aquí podrás comenzar a jugar y mejor aún, establecer un buen flujo de conversación pero antes de continuar, podrías refinar un poco lo que haces aquí y puedes comenzar por eliminar el método *PostAsync* para colocarlo hasta el final y solo reciba una cadena.
+``` csharp - C
+private async Task MessageReceivedAsync(IDialogContext context, IAwaitable<object> result)
+{
+    var activity = await result as Activity;
+    string receivedString = activity.Text.ToLower();
+    string reply = string.Empty;
 
-Y por último damos clic en el botón de crear tomara unos minutos en lo que se despliega el servicio
+    switch (receivedString)
+    {
+        case "hola":
+            reply = "Hola! Cómo te va?";
+            break;
+        case "tengo hambre":
+            reply = "No lo creo, creo que tienes sed";
+            break;
+        case "cómo te llamas?":
+            reply = "Puedes decirme como quieras, no me ofendo";
+            break;
+        case "qué edad tienes?":
+            reply = "soy tan viejo como el tiempo mismo";
+            break;
+        default:
+            reply = "Lo siento, no entiendo esta pregunta";
+            break;
+    }
+    await context.PostAsync(reply);
+    context.Wait(MessageReceivedAsync);
+}
+```
+Con esto bastará para mejorar un poco tu estructura y que puedas comenzar a jugar con conversaciones simples. Naturalmente para cuando estés leyendo esto sabrás que usar esta manera de trabajo no escalaría bajo ningún concepto simplemente por imaginar el enorme tamaño del *switch* con una conversación verdadera. Lo mejor será primero planear una conversación más adecuada por medio de **FormFlow** que es el siguiente tema.
 
-
-
-cuando esté listo en la parte superior derecha vas a encontrar el icono de las notificaciones en forma de campana y ahí encontraras si todo salió bien la leyenda "Deployment succeeded"
-
-<img src="Imagenes/Deployment.png"/>
-
-
-Cuando esté listo nos mostrara una pantalla como la siguiente (primera imagen) donde deberemos dar clic para generar nuestro App e ID, estos los genera automáticamente (segunda imagen) y por último damos clic en generar app password
-
-<img src="Imagenes/capture1.png"/>
-
-<img src="Imagenes/Capture3.png"/>
-
-Aquí es muy importante que copies ese password ya que será la única vez que lo mostrara, si no lo haces deberás hacer de nuevo todo el proceso anterior.
-
-<img src="Imagenes/Capture4.png"/>
-
-Das clic en finalizar y regresar al Bot Framework 
-
-Ya en la ventana que te regresa vas a pegar ese password en el paso donde te lo indica 
-
-<img src="Imagenes/Capture6.png"/>
-
-Eliges el lenguaje para tu Bot, en este caso será C# y para este ejemplo usaremos la plantilla “Basic” 
-Aceptamos los términos y condiciones (recuerda que las tienes que leer antes de crear el Bot “ajaa”)
-Y damos clic en el botón de Crear Bot.
-
-<img src="Imagenes/Capture7.PNG"/>
-
-Y ya para finalizar, aquí es donde podrás editar tu código en línea o si lo prefieres también puedes descargar el código para editarlo con Visual Studio, también puedes hacer un test para escribirle a tu Bot. 
-
-
-<img src="Imagenes/Capture8.PNG"/>
+¡Nos vemos!

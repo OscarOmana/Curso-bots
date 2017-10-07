@@ -17,3 +17,7 @@ Un mensaje puede ser tan simple como una cadena de texto o contener archivos adj
 
 ### Esto es un ejemplo de tarjeta adaptable.
 <img src="Imagenes/card.PNG"/>
+
+Puedes notar en cada uno de los casos con las imágenes anteriores que los mensajes modifican su estructura de acuerdo a cada uno de los casos. Nota la sección de detalles (detail) y ahí encontrarás que el formato de JSON es en esencia el mismo pero también puedes notar que cada ejemplo aumenta sustancialmente la complejidad de cada caso. 
+
+En la lección 13 comenzaremos a trabajar con los mensajes de texto que naturalmente son los más sencillos y servirán como puerta de entrada para todas las demás opciones como los adjuntos o como las tarjetas adaptables.
