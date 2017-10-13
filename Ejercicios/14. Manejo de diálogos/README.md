@@ -7,3 +7,23 @@ En un Bot, todo comienza con el RootDialog. El RotDialog invoca a otro nuevo dia
 
 
 <img src="Imagenes/multipleDialogo.PNG"/>
+
+Entendiendo esto, vemos cómo podemos invocar un nuevo dialogo en nuestro Bot.
+
+
+## Invocar un nuevo Dialog
+
+``` csharp - C
+await context.Forward(new OneDialog(), this.ResumeAfterNewOrderDialog, activity, CancellationToken.None);
+``` 
+
+``` csharp - C
+private async Task ResumeAfterNewOrderDialog(IDialogContext context, IAwaitable<string> result)
+        {
+            var resultFromNewOrder = await result;
+
+            await context.PostAsync($"Nuevo dialogo: {resultFromNewOrder}");
+            
+            context.Wait(this.MessageReceivedAsync);
+        }
+``` 
