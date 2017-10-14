@@ -24,4 +24,4 @@ var heroCard = new HeroCard()
 
 Y con esto, el resultado será el siguiente.
 
-<img src="Imagenes/UserOne.PNG"/>
+<img src="Imagenes/heroCard.PNG"/>
